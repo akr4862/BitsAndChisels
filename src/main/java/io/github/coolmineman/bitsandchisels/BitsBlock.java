@@ -25,7 +25,7 @@ import net.minecraft.world.WorldAccess;
 
 public class BitsBlock extends Block implements BlockEntityProvider, Waterloggable {
 
-    public static final IntProperty LIGHT_LEVEL = IntProperty.of("light_level", 0, 16);
+    public static final IntProperty LIGHT_LEVEL = IntProperty.of("light_level", 0, 0);
 
     public BitsBlock(Settings settings) {
         super(settings);
